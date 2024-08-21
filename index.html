@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<style>
+  .manrope-font{
+    font-family: "Manrope", sans-serif;
+  }
+  .nav-color{
+    color: rgb(73, 73, 73);
+  }
+  .nav1-color{
+    color: rgb(115, 115, 115);
+  }
+</style>
+<body>
+    <header class="manrope-font p-4 lg:p-0 bg-slate-50">
+        <nav class="flex lg:justify-around justify-between pt-4 lg:pt-8">
+          <div class="flex gap-2 -top-1">
+            <i class="ri-arrow-right-up-line bg-[#ABEF5F] rounded-full flex items-center justify-center w-[32px] h-[32px]"></i>
+            <a class="text-2xl font-extrabold text-[#212121]" href="">Rinterio</a>
+          </div>
+          <ul class="flex hidden lg:block lg:flex gap-9 p-2">
+            <li><a class="nav-color font-extrabold" href="">Home</a></li>
+            <li><a class="nav1-color " href="">Services</a></li>
+            <li><a class="nav1-color" href="">Protfolio</a></li>
+            <li><a class="nav1-color" href="">Blogs</a></li>
+            <li><a class="nav1-color" href="">Contact Us</a></li>
+          </ul>
+          <div class="md:flex hidden gap-8 -top-2">
+            <i class="ri-search-line bg-white rounded-full flex items-center justify-center w-[48px] h-[48px] mt-2"></i>
+            <i class="ri-shopping-cart-2-line bg-white rounded-full flex items-center justify-center w-[48px] h-[48px] mt-2"></i>
+            <button class="bg-[#ABEF5F] py-4 px-6 flex gap-3 justify-center items-center rounded-full text-sm font-extrabold text-[#1C1C1C]">Book Consult<i class="ri-arrow-right-up-line rounded-full flex items-center justify-center w-[32px] h-[32px] bg-[#1C1C1C] text-white"></i></button>
+          </div>
+          <i class="ri-menu-line lg:hidden bg-white rounded-full flex items-center justify-center w-[48px] h-[48px] -top-3"></i>
+        </nav>
+    </header>
+</body>
+</html>
