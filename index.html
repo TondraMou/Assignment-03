@@ -25,8 +25,8 @@
     background: rgba(171, 239, 95, 0.5);
   }
 </style>
-<body>
-    <header class="manrope-font p-4 lg:p-0 bg-gradient-to-t from-white to-gray-50">
+<body class="manrope-font">
+    <header class="p-4 lg:p-0 bg-gradient-to-t from-white to-gray-50 mb-9 lg:mb-[120px]">
         <nav class="flex lg:justify-around justify-between pt-4 lg:pt-8">
           <div class="flex gap-2 -top-1">
             <i class="ri-arrow-right-up-line bg-[#ABEF5F] rounded-full flex items-center justify-center w-[32px] h-[32px]"></i>
@@ -58,5 +58,50 @@
             <button class="flex bg-btn mt-5 self-center w-full lg:w-[210px] rounded-full justify-center items-center p-2 gap-1 text-[20px] font-bold text-[#212121]">View Details<i class="ri-arrow-right-up-line bg-[#ABEF5F] rounded-full flex items-center justify-center w-[32px] h-[32px]"></i></button>
         </div>
     </header>
+    <main>
+      <section class="bg-gray-50 py-8 lg:py-16 p-4">
+        <div class="flex flex-col lg:flex-row gap-5 lg:gap-10 xl:gap-20  container mx-auto">
+          
+            <div class="flex flex-col gap-3 lg:w-1/2  lg:self-end ">
+              <div>
+                <img src="./assets/Vector.png" alt="" class="hidden lg:block">
+              </div>
+                <button class="btn self-center lg:self-start rounded-full bg-white text-[#494949]"><i
+                        class="ri-arrow-right-line"></i>About
+                    Us</button>
+                <h1 class="text-3xl lg:text-4xl xl:text-5xl font-extrabold text-center lg:text-left text-[#212121]">We design
+                    thoughtful, liveable
+                    spaces</h1>
+                <p class="text-center text-sm text-[#494949] md:mx-auto lg:text-left lg:mx-0 md:mb-5">We focus on crafting spaces that seamlessly blend functionality with beauty, transforming everyday environments into inspiring, liveable places that enhance the quality of life.</p>
+                <div class="flex flex-col  gap-5 md:flex-row lg:flex-col">
+                    <div class="w-full bg-white rounded-xl p-5 flex gap-4">
+                        <div class="mb-2 w-[20%] lg:w-[10%]">
+                            <img src="./assets/commercial.png" alt="">
+                        </div>
+                        <div class="w-[80%] lg:w-[60%]">
+                            <h1 class="text-lg font-bold text-[#494949]">Commercial</h1>
+                            <p class="text-sm text-[#737373]">Delivering innovative commercial spaces that drive success and inspire productivity.</p>
+                        </div>
+                    </div>
+                    <div class="w-full bg-white rounded-xl p-5 flex gap-4">
+                        <div class="mb-2 w-[20%] lg:w-[10%]">
+                            <img src="./assets/residential.png" alt="">
+                        </div>
+                        <div class="w-[80%] lg:w-[60%]">
+                            <h1 class="text-lg font-bold text-[#494949]">Residential</h1>
+                            <p class="text-sm text-[#737373]">Designing homes that blend comfort, style, and personal expression.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+          
+            <div class=" lg:w-1/2  ">
+                <img src="./assets/Rectangle.png" alt=""
+                    class="h-[200px] md:h-[400px] w-full lg:w-auto   lg:h-[100%]    object-cover rounded-xl">
+            </div>
+        </div>
+      </section>
+    </main>
 </body>
 </html>
